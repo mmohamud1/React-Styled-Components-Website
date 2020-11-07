@@ -8,6 +8,12 @@ import {
   FooterLinkItems,
   FooterLinkTitle,
   FooterLink,
+  SocialMedia,
+  SocialMediaWrap,
+  SocialLogo,
+  WebsiteRights,
+  SocialIcons,
+  SocialIconLink
 } from './FooterElements';
 
 const Footer = () => {
