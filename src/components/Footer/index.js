@@ -1,5 +1,11 @@
 import React from 'react';
-import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter, FaYoutube } from 'react-icons/fa';
+import {
+  FaFacebook,
+  FaInstagram,
+  FaLinkedin,
+  FaTwitter,
+  FaYoutube,
+} from 'react-icons/fa';
 import {
   FooterContainer,
   FooterWrap,
@@ -13,10 +19,16 @@ import {
   SocialLogo,
   WebsiteRights,
   SocialIcons,
-  SocialIconLink
+  SocialIconLink,
 } from './FooterElements';
+import { animateScroll as scroll } from 'react-scroll';
 
 const Footer = () => {
+  // Scroll to top of page on click (react-scroll)
+  const toggleHome = () => {
+    scroll.scrollToTop();
+  };
+
   return (
     <FooterContainer>
       <FooterWrap>
@@ -56,7 +68,9 @@ const Footer = () => {
         </FooterLinksContainer>
         <SocialMedia>
           <SocialMediaWrap>
-            <SocialLogo to='/'>moMoney</SocialLogo>
+            <SocialLogo to='/' onClick={toggleHome}>
+              moMoney
+            </SocialLogo>
             <WebsiteRights>
               Created by Mohamed Mohamud &copy; 2020
             </WebsiteRights>
