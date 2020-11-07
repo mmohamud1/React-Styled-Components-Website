@@ -26,10 +26,10 @@ const HeroSection = () => {
         <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
       </HeroBg>
       <HeroContent>
-        <HeroH1>Virtual Banking Made Easy</HeroH1>
+        <HeroH1>Virtual Trading Made Easy</HeroH1>
         <HeroP>
           Sign up for a new account and recieve £250 in credit towards your next
-          payment
+          trade
         </HeroP>
         <HeroBtnWrapper>
           <Button
