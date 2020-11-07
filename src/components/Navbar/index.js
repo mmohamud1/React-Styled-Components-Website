@@ -1,5 +1,6 @@
-import React, {useState} from 'react';
+import React, { useState, useEffect } from 'react';
 import { FaBars } from 'react-icons/fa';
+import {IconContext} from 'react-icons/lib'
 import {
   Nav,
   NavbarContainer,
@@ -14,15 +15,24 @@ import {
 
 const Navbar = ({ toggle }) => {
   // Navbar color change on scroll
-  const [scrollNav, setScrollNav] = useState(false)
+  const [scrollNav, setScrollNav] = useState(false);
 
   const changeNav = () => {
-    
-  }
+    if (window.scrollY >= 80) {
+      setScrollNav(true);
+    } else {
+      setScrollNav(false);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener('scroll', changeNav);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   return (
     <>
-      <Nav>
+      <Nav scrollNav={scrollNav}>
         <NavbarContainer>
           <NavLogo to='/'>moMoney</NavLogo>
           <MobileIcon onClick={toggle}>
