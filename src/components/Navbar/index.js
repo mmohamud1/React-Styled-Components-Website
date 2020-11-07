@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { FaBars } from 'react-icons/fa';
 import {
   Nav,
@@ -13,6 +13,13 @@ import {
 } from './NavbarElements';
 
 const Navbar = ({ toggle }) => {
+  // Navbar color change on scroll
+  const [scrollNav, setScrollNav] = useState(false)
+
+  const changeNav = () => {
+    
+  }
+
   return (
     <>
       <Nav>
