@@ -69,7 +69,7 @@ const Footer = () => {
         <SocialMedia>
           <SocialMediaWrap>
             <SocialLogo to='/' onClick={toggleHome}>
-              moMoney
+              moTrade
             </SocialLogo>
             <WebsiteRights>
               Created by Mohamed Mohamud &copy; 2020
