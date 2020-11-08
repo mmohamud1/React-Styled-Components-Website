@@ -46,7 +46,7 @@ export const homeObjThree = {
   topLine: 'Join our Team',
   headline: 'Creating an account is extremely easy',
   description:
-    'Get everything set up and ready in under 15 minutes. All you need to do is add your information and you are ready to go. ',
+    'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat nisi tempore quam iure maxime aperiam? Ducimus, dignissimos. Vero.',
   buttonLabel: 'Start Now',
   imgStart: false,
   img: img3,
