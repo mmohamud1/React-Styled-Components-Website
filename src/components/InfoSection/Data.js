@@ -28,7 +28,7 @@ export const homeObjTwo = {
   topLine: 'Unlimited Access',
   headline: 'Login to your account at any time',
   description:
-    'We have you covered no matter where you are located. All you need is an internet connection and a device to use this service on.',
+    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, nemo cum mollitia doloribus repellat sed.',
   buttonLabel: 'Learn More',
   imgStart: true,
   img: img2,
