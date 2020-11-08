@@ -10,7 +10,7 @@ export const homeObjOne = {
   topLine: 'Premium Platform',
   headline: 'Unlimited Transactions with zero fees',
   description:
-    'Get access to our exclusive app that allows you to send unlimited transactions without getting charged any fees.',
+    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam sit ratione tempore quam eveniet ea dolorum amet doloribus temporibus cupiditate.',
   buttonLabel: 'Get Started',
   imgStart: false,
   img: img1,
